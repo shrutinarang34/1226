@@ -2,7 +2,7 @@
     background-image: linear-gradient(to bottom, #ffe7bf, #ffd6ae, #ffc4a1, #ffb299, #ff9f97, #f88e8e, #f07c87, #e86a82, #d7556e, #c53f5a, #b32747, #a10035);
     min-height: 800px;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
     position: relative;
 }
@@ -11,14 +11,12 @@
     background-color: transparent !important;
     padding: 0;
     margin: 0;
-    position: absolute;
     height: 100px;
 }
 
 .img-logo {
     height: 80px;
     width: 300px;
-    /* padding-top: 0px; */
     padding-left: 50px;
 }
 
@@ -82,17 +80,17 @@ span {
     background-color: #1d9bf0;
 }
 
-.box {
-    margin-top: 30px;
+.box1 {
+    margin-top: 0px;
     display: flex;
-    padding-top: 100px;
+    padding-top: 0px;
 }
 
 .div-img {
     height: 1000px;
     width: 1000px;
     margin-top: 30px;
-    
+
 }
 
 .div-h1 {
@@ -103,10 +101,11 @@ span {
     align-items: center;
     margin-left: 150px;
     margin-right: 150px;
-    margin-top: 150px;
+    margin-top: 100px;
     font-size: 50px;
 }
-.div-content{
+
+.div-content {
     color: #1e3264;
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
@@ -117,7 +116,7 @@ span {
     margin-top: 30px;
 }
 
-.form-control{
+.form-control {
     margin-top: 30px;
     margin-left: 150px;
     background: #172751;
@@ -125,7 +124,7 @@ span {
     width: 1000px;
 }
 
-.btn{
+.btn {
     margin-top: 30px;
     margin-right: 150px;
     background: #5c22ff;
@@ -133,27 +132,171 @@ span {
     height: 45px;
     color: white;
 }
-.btn:hover{
+
+.btn:hover {
     background: #0033ff;
 }
 
-/* .div-h2{
+.box2 {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.div-h2 {
+    margin: 0;
+    padding: 0;
     color: #1e3264;
     font-weight: bolder;
     font-family: 'Poppins', sans-serif;
     font-family: 'Source Sans Pro', sans-serif;
-    align-items: center;
+    text-align: ltr;
     margin-left: 150px;
-   margin-top: 0;
-   padding-top: 0;
     font-size: 50px;
+
 }
-.div.content{
+
+.content {
     color: #1e3264;
-    font-size: 20px;
     font-family: 'Poppins', sans-serif;
     font-family: 'Source Sans Pro', sans-serif;
-    align-items: center;
+    text-align: ltr;
     margin-left: 150px;
     margin-top: 30px;
-} */
+    font-size: 18px;
+}
+
+.Tool-img {
+    margin: 0;
+    padding: 0;
+    margin-left: 150px;
+    margin-right: 150px;
+    filter: drop-shadow(20px 20px 1px #2868ed);
+    filter: drop-shadow(20px 20px 1px #1e3264);
+}
+
+
+.heading {
+    padding: 30px;
+    font-size: 10px;
+    font-family: 'Nunito', sans-serif;
+    text-decoration-color: #1e3264;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.box3{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.para1{
+    font-size: 35px;
+    margin-top: 50px;
+    text-align: ltr;
+    text-decoration-color: #1e3264;
+    margin-left: 200px;
+    font-family: 'Dancing Script', cursive;
+}
+.para2{
+    font-size: 35px;
+    margin-top: 50px;
+    text-align: ltr;
+    text-decoration-color: #1e3264;
+    margin-left: 50px;
+    margin-right: 150px;
+    font-family: 'Dancing Script', cursive;
+}
+.box4{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.box5{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.mike-img{
+    margin-top: 50px;
+    margin-left: 200px;
+    height: 100px;
+}
+.jane-img{
+    margin-top: 50px;
+    margin-left: 80px;
+    height: 100px;
+    margin-right: 0px;
+}
+.Mike{
+    margin-top: 70px;
+    font-size: 18px;
+    text-align: ltr;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 10px;
+    font-weight: bold;
+  
+    margin-right: 0px;
+}
+.Mikep{
+    margin-top: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+margin-left: 10px;
+}
+.Jane{
+    margin-top: 70px;
+    font-size: 18px;
+    text-align: ltr;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 200px;
+    margin-left: 2px;
+    font-weight: bold;
+}
+.Janep{
+    margin-top: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left:5px;
+    font-size: 18px;
+}
+.box6{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.last-img{
+    margin-top: 150px;
+    margin-left: 150px;
+}
+.h2-last{
+    margin-top: 180px;
+    text-align: ltr;
+    text-decoration-color: #1e3264;
+    font-size: 40px;
+}
+.p-last{
+    margin-top: 30px;
+    text-align: ltr;
+    text-decoration-color: #1e3264;
+    font-size: 16px;
+    margin-right: 200px;
+}
+#myBtn {
+    /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
