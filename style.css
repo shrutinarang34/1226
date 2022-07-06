@@ -97,7 +97,6 @@ span {
     color: #1e3264;
     font-weight: bolder;
     font-family: 'Poppins', sans-serif;
-    font-family: 'Source Sans Pro', sans-serif;
     align-items: center;
     margin-left: 150px;
     margin-right: 150px;
@@ -109,7 +108,7 @@ span {
     color: #1e3264;
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
-    font-family: 'Source Sans Pro', sans-serif;
+
     align-items: center;
     margin-left: 150px;
     margin-right: 150px;
@@ -149,7 +148,7 @@ span {
     color: #1e3264;
     font-weight: bolder;
     font-family: 'Poppins', sans-serif;
-    font-family: 'Source Sans Pro', sans-serif;
+
     text-align: ltr;
     margin-left: 150px;
     font-size: 50px;
@@ -180,71 +179,81 @@ span {
     padding: 30px;
     font-size: 10px;
     font-family: 'Nunito', sans-serif;
-    text-decoration-color: #1e3264;
+    color: #1e3264;
     text-align: center;
     margin-top: 100px;
 }
 
-.box3{
+.box3 {
     margin: 0;
     padding: 0;
     display: flex;
 }
-.para1{
+
+.para1 {
     font-size: 35px;
     margin-top: 50px;
     text-align: ltr;
-    text-decoration-color: #1e3264;
+    color: #1e3264;
     margin-left: 200px;
     font-family: 'Dancing Script', cursive;
 }
-.para2{
+
+.para2 {
     font-size: 35px;
     margin-top: 50px;
     text-align: ltr;
-    text-decoration-color: #1e3264;
+  color: #1e3264;
     margin-left: 50px;
     margin-right: 150px;
     font-family: 'Dancing Script', cursive;
 }
-.box4{
+
+.box4 {
     margin: 0;
     padding: 0;
     display: flex;
 }
-.box5{
+
+.box5 {
     margin: 0;
     padding: 0;
     display: flex;
 }
-.mike-img{
+
+.mike-img {
     margin-top: 50px;
     margin-left: 200px;
     height: 100px;
 }
-.jane-img{
+
+.jane-img {
     margin-top: 50px;
     margin-left: 80px;
     height: 100px;
     margin-right: 0px;
 }
-.Mike{
+
+.Mike {
     margin-top: 70px;
     font-size: 18px;
     text-align: ltr;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-left: 10px;
     font-weight: bold;
-  
+    color: #1e3264;
     margin-right: 0px;
 }
-.Mikep{
+
+.Mikep {
     margin-top: 15px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 18px;
-margin-left: 10px;
+    margin-left: 10px;
+    color: #1e3264;
 }
-.Jane{
+
+.Jane {
     margin-top: 70px;
     font-size: 18px;
     text-align: ltr;
@@ -252,32 +261,99 @@ margin-left: 10px;
     margin-right: 200px;
     margin-left: 2px;
     font-weight: bold;
+    color: #1e3264;
 }
-.Janep{
+
+.Janep {
     margin-top: 15px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-left:5px;
+    margin-left: 5px;
     font-size: 18px;
+    color: #1e3264;
 }
-.box6{
+
+.box6 {
     margin: 0;
     padding: 0;
     display: flex;
 }
-.last-img{
+
+.last-img {
     margin-top: 150px;
     margin-left: 150px;
 }
-.h2-last{
+
+.h2-last {
     margin-top: 180px;
     text-align: ltr;
-    text-decoration-color: #1e3264;
+    color: #1e3264;
     font-size: 40px;
 }
-.p-last{
+
+.p-last {
     margin-top: 30px;
     text-align: ltr;
-    text-decoration-color: #1e3264;
+    color: #1e3264;
     font-size: 16px;
     margin-right: 200px;
+}
+
+.box7 {
+    margin: 20px;
+    padding: 0;
+    display: flex;
+}
+
+.box7 {
+    margin: 20px;
+    padding: 0;
+    display: flex;
+}
+
+.box8 {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.last2-img {
+    margin-top: 50px;
+    height: 40px;
+    margin-left: 150px;
+    margin-right: 0;
+    
+}
+
+.icon-cpy {
+    height: 20px;
+    margin-left: 40px;
+    margin-top: 60px;
+   color:  #112A46;
+}
+
+.last2-p {
+    margin-top: 58px;
+    margin-left: 10px;
+    font-size: 14px;
+    text-align: ltr;
+    font-family: 'Poppins', sans-serif;
+    color:  #112A46;
+}
+
+.box9 {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.last--p {
+    margin-left: 450px;
+    margin-right: 0;
+    color:  #112A46;
+    margin-top: 60px;
+}
+
+.last--img {
+    margin-left: 0;
+    margin-top: 65px;
 }
