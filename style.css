@@ -7,55 +7,41 @@
     position: relative;
 }
 
-.navbar {
-    background-color: transparent !important;
-    padding: 0;
-    margin: 0;
-    height: 100px;
-}
-
 .img-logo {
     height: 80px;
     width: 300px;
     padding-left: 50px;
 }
 
-#home-page {
-    margin-left: 30px;
-    padding-top: 20px;
-    padding-left: 30px;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 18px;
-    font-weight: 100px;
+.navbar {
+    background-color: transparent !important;
+    padding: 0;
+    margin: 0;
+    height: 100px;
+
 }
 
-#about-us-page {
-    margin-left: 20px;
-    padding-top: 20px;
+.nav-item {
+    margin-left: 30px;
+    padding-top: 10px;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 18px;
     font-weight: 100px;
 }
 
 #share-page {
-    padding-top: 45px;
-    margin-left: 400px;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 18px;
-    font-weight: 100px;
+    text-decoration-color: none;
+    list-style: none;
+    margin-top: 30px;
+    margin-right: 10px;
 }
 
 .fa-brands,
 .fa-solid {
-    height: 40%;
-    width: 15px;
-    padding-top: 2px;
-    margin-left: 15px;
+    margin-left: 5px;
     margin-right: 5px;
     margin-bottom: 50px;
-    margin-top: 3px;
-    display: inline-flex;
-
+    margin-top: 7px;
 }
 
 .btn-icon {
@@ -64,31 +50,39 @@
     background-color: #1877f2;
     border-radius: 15px;
     margin-top: 45px;
-    margin-left: 10px;
+    margin-left: 5px;
+    margin-right: 50px;
     height: 25%;
-    display: inline-flex;
 }
 
-span {
+.btn-icon,
+.fa-brands {
     margin-right: 10px;
-    margin-bottom: 15px;
-    margin-top: 2px;
-    font-family: 'Source Sans Pro', sans-serif;
 }
 
-.btn-icon:hover {
-    background-color: #1d9bf0;
+.align-middle {
+    margin-right: 10px;
+    margin-left: 0px;
 }
 
-.box1 {
+.fa-thumbs-up,
+.fa-twitter {
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.row {
     margin-top: 0px;
     display: flex;
     padding-top: 0px;
 }
 
 .div-img {
-    height: 1000px;
-    width: 1000px;
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
     margin-top: 30px;
 
 }
@@ -97,27 +91,27 @@ span {
     color: #1e3264;
     font-weight: bolder;
     font-family: 'Poppins', sans-serif;
-    align-items: center;
-    margin-left: 150px;
-    margin-right: 150px;
-    margin-top: 100px;
+    text-align: ltr;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
     font-size: 50px;
+    font-size: vw;
 }
 
 .div-content {
     color: #1e3264;
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
-
-    align-items: center;
-    margin-left: 150px;
-    margin-right: 150px;
+    text-align: ltr;
+    margin-left: 50px;
+    margin-right: 50px;
     margin-top: 30px;
 }
 
 .form-control {
     margin-top: 30px;
-    margin-left: 150px;
+    margin-left: 50px;
     background: #172751;
     border: none;
     width: 1000px;
@@ -136,21 +130,15 @@ span {
     background: #0033ff;
 }
 
-.box2 {
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-
 .div-h2 {
     margin: 0;
     padding: 0;
     color: #1e3264;
     font-weight: bolder;
     font-family: 'Poppins', sans-serif;
-
+    margin-top: 50px;
     text-align: ltr;
-    margin-left: 150px;
+    margin-left: 50px;
     font-size: 50px;
 
 }
@@ -160,7 +148,7 @@ span {
     font-family: 'Poppins', sans-serif;
     font-family: 'Source Sans Pro', sans-serif;
     text-align: ltr;
-    margin-left: 150px;
+    margin-left: 50px;
     margin-top: 30px;
     font-size: 18px;
 }
@@ -168,13 +156,15 @@ span {
 .Tool-img {
     margin: 0;
     padding: 0;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
     filter: drop-shadow(20px 20px 1px #2868ed);
     filter: drop-shadow(20px 20px 1px #1e3264);
+    height: auto;
+    width: 100%;
+    max-width: 300px;
 }
-
-
 .heading {
     padding: 30px;
     font-size: 10px;
@@ -184,18 +174,14 @@ span {
     margin-top: 100px;
 }
 
-.box3 {
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
+
 
 .para1 {
     font-size: 35px;
     margin-top: 50px;
     text-align: ltr;
     color: #1e3264;
-    margin-left: 200px;
+    margin-left: 50px;
     font-family: 'Dancing Script', cursive;
 }
 
@@ -205,31 +191,21 @@ span {
     text-align: ltr;
   color: #1e3264;
     margin-left: 50px;
-    margin-right: 150px;
+    margin-right: 50px;
     font-family: 'Dancing Script', cursive;
 }
 
-.box4 {
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
 
-.box5 {
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
 
 .mike-img {
     margin-top: 50px;
-    margin-left: 200px;
+    margin-left: 50px;
     height: 100px;
 }
 
 .jane-img {
     margin-top: 50px;
-    margin-left: 80px;
+    margin-left: 50px;
     height: 100px;
     margin-right: 0px;
 }
@@ -239,7 +215,7 @@ span {
     font-size: 18px;
     text-align: ltr;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-left: 10px;
+    margin-left: 50px;
     font-weight: bold;
     color: #1e3264;
     margin-right: 0px;
@@ -250,6 +226,7 @@ span {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 18px;
     margin-left: 10px;
+    margin-left: 50px;
     color: #1e3264;
 }
 
@@ -258,8 +235,8 @@ span {
     font-size: 18px;
     text-align: ltr;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-right: 200px;
-    margin-left: 2px;
+    margin-right: 50px;
+    margin-left: 50px;
     font-weight: bold;
     color: #1e3264;
 }
@@ -267,27 +244,25 @@ span {
 .Janep {
     margin-top: 15px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-left: 5px;
+    margin-left: 50px;
     font-size: 18px;
     color: #1e3264;
 }
-
-.box6 {
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-
 .last-img {
     margin-top: 150px;
-    margin-left: 150px;
+    margin-left: 50px;
+    height: auto;
+    width: 100%;
+    max-width: 350px;
 }
 
 .h2-last {
-    margin-top: 180px;
+    margin-top: 170px;
     text-align: ltr;
     color: #1e3264;
     font-size: 40px;
+    margin-right: 50px;
+    margin-left: 50px;
 }
 
 .p-last {
@@ -295,65 +270,46 @@ span {
     text-align: ltr;
     color: #1e3264;
     font-size: 16px;
-    margin-right: 200px;
+    margin-right: 50px;
+    margin-left: 50px;
 }
 
-.box7 {
-    margin: 20px;
-    padding: 0;
-    display: flex;
-}
-
-.box7 {
-    margin: 20px;
-    padding: 0;
-    display: flex;
-}
-
-.box8 {
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
 
 .last2-img {
     margin-top: 50px;
     height: 40px;
-    margin-left: 150px;
-    margin-right: 0;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
     
 }
 
 .icon-cpy {
     height: 20px;
-    margin-left: 40px;
+    margin-right: 50px;
+    margin-left: 50px;
     margin-top: 60px;
    color:  #112A46;
 }
 
 .last2-p {
     margin-top: 58px;
-    margin-left: 10px;
+    margin-right: 50px;
+    margin-left: 50px;
     font-size: 14px;
     text-align: ltr;
     font-family: 'Poppins', sans-serif;
     color:  #112A46;
 }
 
-.box9 {
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-
 .last--p {
-    margin-left: 450px;
+    margin-left: 330px;
     margin-right: 0;
     color:  #112A46;
     margin-top: 60px;
 }
 
 .last--img {
-    margin-left: 0;
+    margin-right:150px ;
     margin-top: 65px;
 }
