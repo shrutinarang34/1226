@@ -302,6 +302,7 @@
     background-color: #1934fd;
     margin-top: 100px;
     color: white;
+    margin-bottom: 100px;
 }
 .comm h3{
     font-size: 25px;
@@ -363,7 +364,7 @@
     background-color: #333333;
 }
 .last-div p{
-    margin-top: 70px;
+    margin-top: 0px;
     text-align: center;
     padding-top: 70px;
 }
